@@ -14,4 +14,4 @@ interface PollutionService {
     ) : Call<PollutionResponse>
 }
 
-//https://api.openweathermap.org/data/2.5/air_pollution?lat=50&lon=50&appid=fa88f55815a1fec406c195a31ed90158
+//https://api.openweathermap.org/data/2.5/air_pollution?lat=50&lon=50&appid=api_key
