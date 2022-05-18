@@ -16,4 +16,4 @@ interface HistoricalService {
     ) : Call<PollutionResponse>
 }
 
-//http://api.openweathermap.org/data/2.5/air_pollution/history?lat=508&lon=50&start=1606223802&end=1606482999&appid=fa88f55815a1fec406c195a31ed90158
+//http://api.openweathermap.org/data/2.5/air_pollution/history?lat=508&lon=50&start=1606223802&end=1606482999&appid=api_key
