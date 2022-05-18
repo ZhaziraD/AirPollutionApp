@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = "1.4.30"
+    repositories {
+        google()
+        jcenter()
+
+        maven { url  "https://chaquo.com/maven" }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.1.1"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        classpath "com.chaquo.python:gradle:12.0.0" //8.0.0
+//        classpath ""
+
+//        https://dl.google.com/dl/android/maven2/com/chaquo/python/gradle/7.2/gradle-7.2.pom
+//        https://jcenter.bintray.com/com/chaquo/python/gradle/7.2/gradle-7.2.pom
+//        https://chaquo.com/maven/com/chaquo/python/gradle/7.2/gradle-7.2.pom
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+//plugins {
+//    id 'com.chaquo.python' version '12.0.0' apply false
+//}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
