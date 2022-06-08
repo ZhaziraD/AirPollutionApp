@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">AirPollutionApp</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="components">
+        <item>aqi</item>
+        <item>co</item>
+        <item>nh3</item>
+        <item>no</item>
+        <item>no2</item>
+        <item>o3</item>
+        <item>pm10</item>
+        <item>pm25</item>
+        <item>so2</item>
+    </string-array>
 </resources>

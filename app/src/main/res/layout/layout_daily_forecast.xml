@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="15dp"
+    android:elevation="5dp"
+    android:background="@drawable/background_recycler_view_time"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:text="Sat, Nov 21" />
+
+    <TextView
+        android:id="@+id/tvAqiDaily"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+</RelativeLayout>

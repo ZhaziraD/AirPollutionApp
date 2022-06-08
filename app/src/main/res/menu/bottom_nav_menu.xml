@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/bottom_navigator_home"
+        android:id="@+id/home"/>
+    <item android:title="Map"
+        android:icon="@drawable/bottom_navigator_map"
+        android:id="@+id/mapsFragment"/>
+    <item android:title="Charts"
+        android:icon="@drawable/bottom_navigator_charts"
+        android:id="@+id/chartFragment"/>
+    <item android:title="Recommends"
+        android:icon="@drawable/bottom_navigator_recommendations"
+        android:id="@+id/recommendationsFragment"/>
+
+</menu>
